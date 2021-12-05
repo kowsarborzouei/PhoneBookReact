@@ -1,0 +1,26 @@
+.container--table{
+    height: 50vh;
+    width: 100%;
+    overflow:scroll;
+    overflow-x:hidden;
+    margin: auto;
+
+}
+table{
+    background-color: var(--background-table-color);
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-left: 10px;
+    color: #fff;
+    border: 1px solid var(--search-button-color);
+
+}
+th,td{
+
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: var(--search-button-color);
+}
