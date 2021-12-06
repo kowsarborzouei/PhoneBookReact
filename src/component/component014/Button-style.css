@@ -10,7 +10,7 @@ button{
     width: 11vw;
     height: 5vh;
     border: 0;
-    color: #fff;
+    color: #3c3c3c;
     background-color: var(--search-button-color);
     text-align: center;
     cursor: pointer;

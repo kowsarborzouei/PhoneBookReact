@@ -13,7 +13,6 @@
 }
 label{
     font-size: 1rem;
-
 }
 .input--Information{
     width: 15vw;
@@ -26,11 +25,11 @@ label{
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
 }
 input:focus{
-    box-shadow: 0 0 1rem 0 rgba(242, 171, 39, .9);
+    box-shadow: 0 0 1rem 0 rgba(37, 211, 102, .9);
 }
 h2{
     color: var(--background-table-color);
     text-align: center;
     margin-top: 20px;
-    text-shadow: .1em 0 .1em rgba(242, 171, 39, .9);
+    text-shadow: .1em 0 .1em rgba(37, 211, 102, .9);
 }

@@ -9,18 +9,20 @@ function ComponentTable(){
                     <th>Phone</th>
                     <th>Email</th>
                 </tr>
+
                 <tr>
                     <td>Kowsar</td>
                     <td>Borzuei</td>
-                    <td>09150619413</td>
-                    <td>k.borzuei@gmail.com</td>
+                    <td>09150000413</td>
+                    <td>kowsar@gmail.com</td>
                 </tr>
                 <tr>
                     <td>Kowsar</td>
                     <td>Borzuei</td>
-                    <td>09150619413</td>
-                    <td>k.borzuei@gmail.com</td>
+                    <td>09150000413</td>
+                    <td>kowsar@gmail.com</td>
                 </tr>
+
 
             </table>
         </div>
