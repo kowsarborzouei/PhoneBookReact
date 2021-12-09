@@ -11,7 +11,7 @@ button{
     height: 5vh;
     border: 0;
     color: #fff;
-    background-color: var(--search-button-color);
+    background-color: var(--button-color);
     text-align: center;
     cursor: pointer;
 }
@@ -20,8 +20,8 @@ i{
     font-size: 1rem;
 }
 #AddButton{
-    background-color: var(--background-table-color);
+    background-color: var(--button-select);
 }
 button:hover,#AddButton:hover{
-    background-color: var(--search-button-hover-color);
+    background-color: var(--background-table-color);
 }

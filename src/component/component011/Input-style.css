@@ -1,7 +1,7 @@
 .form__Information{
 
     height: auto;
-    margin: 20px 10px 28px 10px;
+    margin: 20px 15px 28px 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,21 +16,21 @@ label{
 
 }
 .input--Information{
-    width: 15vw;
+    width: 18vw;
     height: 5vh;
     font-size: 1rem;
-    border-radius: 5px;
-    outline: none;
     border: 0;
+    border-bottom: 1px solid var(--button-select);
+    outline: none;
     padding-left: 5px;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+
 }
-input:focus{
-    box-shadow: 0 0 1rem 0 rgba(242, 171, 39, .9);
+input:focus,input:hover{
+    border-bottom: 1px solid var(--background-table-color);
 }
-h2{
-    color: var(--background-table-color);
+h1{
+    color: var(--button-select);
     text-align: center;
     margin-top: 20px;
-    text-shadow: .1em 0 .1em rgba(242, 171, 39, .9);
+    text-shadow: .1em 0 .1em rgba(221, 74, 72, .9);
 }

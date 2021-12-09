@@ -7,13 +7,13 @@
 
 }
 table{
-    background-color: var(--background-table-color);
+    background-color: var(--background-nth-table-color);
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
     margin-left: 10px;
-    color: #fff;
-    border: 1px solid var(--search-button-color);
+    color: #424242;
+    border:0
 
 }
 th,td{
@@ -21,6 +21,12 @@ th,td{
     text-align: center;
     padding: 8px;
 }
+thead{
+    background-color:var(--background-table-color) ;
+}
+tbody :hover{
+    background-color: var(--button-color);
+}
 tr:nth-child(even){
-    background-color: var(--search-button-color);
+    background-color: var(--background-table-color);
 }

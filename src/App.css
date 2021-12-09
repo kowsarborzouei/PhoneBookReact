@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
     --body-color: #FFF;
-    --background-table-color:#415764;
-    --search-button-color: #FCC324;
-    --search-button-hover-color: #F2AB27;
+    --background-table-color:#97BFB4;
+    --background-nth-table-color: #F5EEDC;
+    --button-color:#DD4A48;
+    --button-select:#4F091D;
+
 }
 .App{
     background-color: var(--body-color);
