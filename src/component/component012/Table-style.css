@@ -24,7 +24,7 @@ th,td{
 thead{
     background-color:var(--background-table-color) ;
 }
-tbody :hover{
+tbody :hover,tr:nth-child(even):hover{
     background-color: var(--button-color);
 }
 tr:nth-child(even){
