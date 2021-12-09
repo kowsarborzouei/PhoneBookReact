@@ -26,6 +26,7 @@ thead{
 }
 tbody :hover,tr:nth-child(even):hover{
     background-color: var(--button-color);
+    cursor: grab;
 }
 tr:nth-child(even){
     background-color: var(--background-table-color);
