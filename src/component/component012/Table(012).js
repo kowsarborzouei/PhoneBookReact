@@ -1,6 +1,11 @@
 import '../component012/Table-style.css'
+import {useState} from "react";
+import usersList from "../users/Users";
 
 function ComponentTable() {
+    const [users, setUsers] = useState(usersList)
+    //Delete
+    const handleDelete =(Phone)=>{setUsers(users.filter(item=>item.Phone!==Phone))}
     return (
         <div className={'container--table'}>
             <table>
@@ -13,19 +18,14 @@ function ComponentTable() {
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>Kowsar</td>
-                    <td>Borzuei</td>
-                    <td>09150619413</td>
-                    <td>k.borzuei@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Kowsar</td>
-                    <td>Borzuei</td>
-                    <td>09150619413</td>
-                    <td>k.borzuei@gmail.com</td>
-                </tr>
-
+                {usersList.map(item => (
+                    <tr key={item.Phone}>
+                        <td>{item.FirstName}</td>
+                        <td>{item.LastName}</td>
+                        <td>{item.Phone}</td>
+                        <td>{item.Email}</td>
+                    </tr>
+                ))}
                 </tbody>
 
             </table>

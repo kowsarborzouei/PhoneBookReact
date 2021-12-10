@@ -1,9 +1,10 @@
 import '../component011/Input-style.css'
+
 function ComponentInput(){
     return(
         <div>
             <h1>Phone Book</h1>
-            <form className={'form__Information'}>
+            <form  className={'form__Information'}>
                 {/*<label htmlFor={'fName'}>First Name : </label>*/}
                 <input placeholder={'First Name...'} className={'input--Information'} type={'text'} name={'fName'}/>
                 {/*<label htmlFor={'lName'}>Last Name : </label>*/}
